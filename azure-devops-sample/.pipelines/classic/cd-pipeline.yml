@@ -11,9 +11,9 @@ variables:
 
 resources:
   pipelines:
-  - pipeline: lgappstd-test4 (1)
+  - pipeline: cipipeline
     # TODO: Update with the name of your CI pipeline
-    source: 'ShreeDivyaMV.LogicAppsSamples'
+    source: 'OlmesDaravina.lgappstd-test4 (1)'
     trigger:
       branches:
       - main
