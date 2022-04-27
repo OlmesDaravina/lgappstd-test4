@@ -42,5 +42,5 @@ stages:
               appType: 'functionapp,workflowapp'
               appName: '$(logicAppName)'
               package: '$(Pipeline.Workspace)/cipipeline/$(logicAppCIArtifactName)/$(resources.pipeline.cipipeline.runID).zip'
-              appSettings: '-emailAddress $(toEmailAddress)'
+              appSettings: 'olmes.daravina@ceiba.com.co $(toEmailAddress)'
               deploymentMethod: 'zipDeploy'
