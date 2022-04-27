@@ -11,7 +11,7 @@ variables:
 
 resources:
   pipelines:
-  - pipeline: OlmesDaravina.lgappstd-test4 (1)
+  - pipeline: ci-pipeline.yml
     # TODO: Update with the name of your CI pipeline
     source: 'ShreeDivyaMV.LogicAppsSamples'
     trigger:
