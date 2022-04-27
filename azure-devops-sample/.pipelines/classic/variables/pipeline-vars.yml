@@ -6,7 +6,7 @@ variables:
   suffix: 'devw'
 
   # TODO: Fill in with the name of your Azure service connection
-  devServiceConnection: 'Suscripción de Visual Studio Enterprise - MPN (af2a739c-d637-4ea6-956b-eb47fe60a023)'
+  devServiceConnection: 'azuretest'
 
   # Resource Group
   resourceGroupLocation: 'centralus'
