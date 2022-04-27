@@ -16,7 +16,7 @@ jobs:
   - task: AzurePowerShell@4
     displayName: 'Generate connections.json file'
     inputs:
-      azureSubscription: '$(devServiceConnection) (af2a739c-d637-4ea6-956b-eb47fe60a023)'
+      azureSubscription: 'af2a739c-d637-4ea6-956b-eb47fe60a023'
       ScriptType: 'FilePath'
       ScriptPath: '$(System.DefaultWorkingDirectory)/azure-devops-sample/.pipelines/scripts/Generate-Connections.ps1'
       FailOnStandardError: true
