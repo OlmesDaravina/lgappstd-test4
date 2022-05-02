@@ -25,7 +25,7 @@
     }
   },
   "variables": {
-    "office365ConnectionId": "[subscriptionResourceId('Microsoft.Web/locations/managedApis', parameters('location'), 'office365')]"
+    "office365ConnectionId": "[af2a739c-d637-4ea6-956b-eb47fe60a023('Microsoft.Web/locations/managedApis', parameters('location'), 'office365')]"
   },
   "resources": [
     {
