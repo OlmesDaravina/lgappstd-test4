@@ -1,35 +1,36 @@
 {
     "definition": {
-        "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
-        "actions": {
-            "Send_an_email_(V2)_2": {
-                "type": "ApiConnection",
-                "inputs": {
-                    "host": {
-                        "connection": {
-                            "referenceName": "outlook"
-                        }
-                    },
-                    "method": "post",
-                    "body": {
-                        "To": "olmes.daravina@ceiba.com.co",
-                        "Subject": "Hola Mundo",
-                        "Body": "<p>Hola</p>"
-                    },
-                    "path": "/v2/Mail"
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "actions": {
+        "Send_an_email_(V2)": {
+            "type": "ApiConnection",
+            "inputs": {
+                "host": {
+                    "connection": {
+                        "referenceName": "office365"
+                    }
                 },
-                "runAfter": {}
-            }
-        },
-        "triggers": {
-            "manual": {
-                "type": "Request",
-                "kind": "Http",
-                "inputs": {}
-            }
-        },
-        "contentVersion": "1.0.0.0",
-        "outputs": {}
+                "method": "post",
+                "body": {
+                    "To": "@appsetting('emailAddress')",
+                    "Subject": "Logic App Triggered!",
+                    "Body": "<p>Hello world!</p>"
+                },
+                "path": "/v2/Mail"
+            },
+            "runAfter": {}
+        }
+      },
+      "contentVersion": "1.0.0.0",
+      "outputs": {},
+      "triggers": {
+        "manual": {
+            "type": "Request",
+            "kind": "Http",
+            "inputs": {}
+        }
+      }
     },
     "kind": "Stateful"
-}
+  }
+  
