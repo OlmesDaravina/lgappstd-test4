@@ -1,17 +1,17 @@
 {
   "managedApiConnections": {
-    "outlook": {
+    "outlook_1": {
       "api": {
         "id": "/subscriptions/af2a739c-d637-4ea6-956b-eb47fe60a023/providers/Microsoft.Web/locations/centralus/managedApis/outlook"
       },
       "connection": {
-        "id": "/subscriptions/af2a739c-d637-4ea6-956b-eb47fe60a023/resourceGroups/LASBTrigger_group/providers/Microsoft.Web/connections/outlook"
+        "id": "/subscriptions/af2a739c-d637-4ea6-956b-eb47fe60a023/resourceGroups/EPM-NP-RG-TEST/providers/Microsoft.Web/connections/outlook"
       },
-      "connectionRuntimeUrl": "https://8e4959a4879edd3b.08.common.logic-centralus.azure-apihub.net/apim/outlook/013a4b8ed27a473d8cffdf3a0616ccc5/",
+      "connectionRuntimeUrl": "https://8e4959a4879edd3b.08.common.logic-centralus.azure-apihub.net/apim/outlook/0736bcde19a34c2fb7c2200dcc4e77f7/",
       "authentication": {
         "type": "Raw",
         "scheme": "Key",
-        "parameter": "@appsetting('outlook-connectionKey')"
+        "parameter": "@appsetting('outlook_1-connectionKey')"
       }
     }
   }
