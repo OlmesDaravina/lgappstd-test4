@@ -5,9 +5,9 @@
         "id": "/subscriptions/af2a739c-d637-4ea6-956b-eb47fe60a023/providers/Microsoft.Web/locations/centralus/managedApis/outlook"
       },
       "connection": {
-        "id": "/subscriptions/af2a739c-d637-4ea6-956b-eb47fe60a023/resourceGroups/EPM-NP-RG-TEST/providers/Microsoft.Web/connections/outlook-1"
+        "id": "/subscriptions/af2a739c-d637-4ea6-956b-eb47fe60a023/resourceGroups/EPM-NP-RG-TEST/providers/Microsoft.Web/connections/outlook"
       },
-      "connectionRuntimeUrl": "https://8e4959a4879edd3b.08.common.logic-centralus.azure-apihub.net/apim/outlook/62f24765991d47d6a168cc5546bdabfd/",
+      "connectionRuntimeUrl": "https://8e4959a4879edd3b.08.common.logic-centralus.azure-apihub.net/apim/outlook/7ddee95846ad4274b5044c7c791e6220/",
       "authentication": {
         "type": "Raw",
         "scheme": "Key",
