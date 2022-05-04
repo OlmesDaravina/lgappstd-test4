@@ -11,7 +11,7 @@
       "authentication": {
         "type": "Raw",
         "scheme": "Key",
-        "parameter": "@appsetting('outlook_1-connectionKey')"
+        "parameter": "@appsetting('outlook-connectionKey')"
       }
     }
   }
