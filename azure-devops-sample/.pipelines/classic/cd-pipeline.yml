@@ -6,8 +6,8 @@ variables:
 - name: devEnvironment
   value: dev
 # TODO: provide an email address for the ExampleWorkflow to an send mail to
-- name: olmesdar02@hotmail.com
-  value: ''
+- name: toEmailAddress
+  value: 'olmes.daravina@ceiba.com.co'
 
 resources:
   pipelines:
