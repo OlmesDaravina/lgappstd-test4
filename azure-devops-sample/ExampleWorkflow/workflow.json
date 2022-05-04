@@ -7,7 +7,7 @@
                 "inputs": {
                     "host": {
                         "connection": {
-                            "referenceName": "outlook-1"
+                            "referenceName": "outlook"
                         }
                     },
                     "method": "post",
