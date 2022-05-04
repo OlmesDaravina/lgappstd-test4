@@ -7,7 +7,7 @@
       "connection": {
         "id": "/subscriptions/af2a739c-d637-4ea6-956b-eb47fe60a023/resourceGroups/EPM-NP-RG-TEST/providers/Microsoft.Web/connections/outlook"
       },
-      "connectionRuntimeUrl": "https://8e4959a4879edd3b.08.common.logic-centralus.azure-apihub.net/apim/outlook/0736bcde19a34c2fb7c2200dcc4e77f7/",
+      "connectionRuntimeUrl": "https://8e4959a4879edd3b.08.common.logic-centralus.azure-apihub.net/apim/outlook/b2f24717bd554a15bb2d79b2a9cf47f4/",
       "authentication": {
         "type": "Raw",
         "scheme": "Key",
