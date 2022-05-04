@@ -2,22 +2,22 @@
 
 variables:
 
-  projectName: 'logicappsample'
-  suffix: 'devw'
+  projectName: 'EPM'
+  suffix: 'NP'
 
   # TODO: Fill in with the name of your Azure service connection
   devServiceConnection: 'azure-conexion'
 
   # Resource Group
   resourceGroupLocation: 'centralus'
-  resourceGroupName: 'LASBTrigger_group'
+  resourceGroupName: 'EPM-NP-RG-TEST'
 
   # Storage
-  storageName: 'sa$(projectName)$(suffix)'
+  storageName: 'sa$(projectName)$(suffix)test'
   appServicePlanName: 'asp$(projectName)$(suffix)'
 
   #  Logic App
-  logicAppName: 'la-wus2-$(projectName)-$(suffix)'
+  logicAppName: 'LAPP-$(projectName)-$(suffix)-Test'
 
   # API Connections
   officeConnectionName: 'la-wus-$(projectName)-connection-office365'
