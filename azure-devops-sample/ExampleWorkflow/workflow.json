@@ -12,7 +12,7 @@
                     },
                     "method": "post",
                     "body": {
-                        "To": "olmes.daravina@ceiba.com.co",
+                        "To": "@appsetting('emailAddress')",
                         "Subject": "Hola",
                         "Body": "<p>Hola mundo</p>"
                     },
