@@ -2,19 +2,19 @@
     "definition": {
         "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
         "actions": {
-            "Send_an_email_(V2)_2": {
+            "Send_an_email_(V2)": {
                 "type": "ApiConnection",
                 "inputs": {
                     "host": {
                         "connection": {
-                            "referenceName": "outlook"
+                            "referenceName": "outlook_1"
                         }
                     },
                     "method": "post",
                     "body": {
                         "To": "olmes.daravina@ceiba.com.co",
-                        "Subject": "Hola Mundo",
-                        "Body": "<p>Hola</p>"
+                        "Subject": "Hola",
+                        "Body": "<p>Hola mundo</p>"
                     },
                     "path": "/v2/Mail"
                 },
