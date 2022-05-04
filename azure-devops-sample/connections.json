@@ -1,6 +1,6 @@
 {
   "managedApiConnections": {
-    "outlook_1": {
+    "outlook": {
       "api": {
         "id": "/subscriptions/af2a739c-d637-4ea6-956b-eb47fe60a023/providers/Microsoft.Web/locations/centralus/managedApis/outlook"
       },
