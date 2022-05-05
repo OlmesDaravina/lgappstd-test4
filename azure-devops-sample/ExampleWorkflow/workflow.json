@@ -7,12 +7,12 @@
                 "inputs": {
                     "host": {
                         "connection": {
-                            "referenceName": "outlook"
+                            "referenceName": ""
                         }
                     },
                     "method": "post",
                     "body": {
-                        "To": "@appsetting('emailAddress')",
+                        "To": "olmes.daravina@ceiba.com.co",
                         "Subject": "Hola",
                         "Body": "<p>Hola mundo</p>"
                     },
