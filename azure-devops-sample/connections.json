@@ -1,0 +1,18 @@
+{
+  "managedApiConnections": {
+    "outlook": {
+      "api": {
+        "id": "/subscriptions/af2a739c-d637-4ea6-956b-eb47fe60a023/providers/Microsoft.Web/locations/centralus/managedApis/outlook"
+      },
+      "connection": {
+        "id": "/subscriptions/af2a739c-d637-4ea6-956b-eb47fe60a023/resourceGroups/EPM-NP-RG-TEST/providers/Microsoft.Web/connections/outlook"
+      },
+      "connectionRuntimeUrl": "https://8e4959a4879edd3b.08.common.logic-centralus.azure-apihub.net/apim/outlook/a7f58e8e4ecf4a87928a918c7593e0cb/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('outlook-connectionKey')"
+      }
+    }
+  }
+}
